@@ -1,0 +1,207 @@
+/* Общие стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #2f2f55;
+    font-size: 24px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #4b7bec;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.contact-email,
+.contact-phone {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Герой-секция */
+.hero {
+    background-color: #2f2f55;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #4b7bec;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #3a5fcd;
+}
+
+/* Особенности */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feature {
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.feature-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2f2f55;
+}
+
+.feature-text {
+    color: #555;
+}
+
+/* Команда */
+.team {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f4fb;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    max-width: 200px;
+}
+
+.team-photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.member-role {
+    color: #777;
+}
+
+/* Портфолио */
+.portfolio {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.portfolio-type {
+    color: #777;
+}
+
+/* Подвал */
+.footer {
+    background-color: #2f2f55;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ccc;
+}
