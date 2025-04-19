@@ -1,11 +1,18 @@
-/* Общие стили */
+/* Google Fonts — применение */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     background-color: #ffffff;
     color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+/* Логотип и заголовки секций — Raleway */
+.logo,
+.section-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 /* Шапка */
@@ -25,7 +32,6 @@ body {
 }
 
 .logo {
-    font-weight: bold;
     color: #2f2f55;
     font-size: 24px;
 }
