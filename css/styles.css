@@ -1,8 +1,8 @@
 /* Google Fonts — применение */
 body {
-    
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    color: #333;
+    color: #434455;
     line-height: 1.6;
     margin: 0;
     padding: 0;
